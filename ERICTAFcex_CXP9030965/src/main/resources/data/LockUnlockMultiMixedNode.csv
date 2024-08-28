@@ -1,0 +1,7 @@
+TestId,NodeType,Operation
+OSS-165958_Func_1,RBS,lock
+OSS-165958_Func_1,RBS,unlock
+OSS-165958_Func_1,RBS,softlock
+OSS-165958_Func_1,ERBS,lock
+OSS-165958_Func_1,ERBS,unlock
+OSS-165958_Func_1,ERBS,softlock

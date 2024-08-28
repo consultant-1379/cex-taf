@@ -1,0 +1,3 @@
+TestId,NodeType,SourceType,TargetType,RelationType,DependentRelations
+OSS-42926_Func_1,MACRO,EUtranCellFDD,EUtranCellFDD,EUtranCellRelation,EUtranFreqRelation:EUtranCellRelation
+OSS-42923_Func_1,MACRO,EUtranCellFDD,ExternalUtranFreq,UtranFreqRelation,UtranFreqRelation: 

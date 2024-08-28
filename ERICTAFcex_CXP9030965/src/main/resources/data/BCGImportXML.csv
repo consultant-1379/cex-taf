@@ -1,0 +1,6 @@
+TestID,Testcase
+TestID_1,UtranCellIUB
+TestID_2,EmergencyID_dg1
+TestID_3,EmergencyID_dg2
+TestID_4,EmergencyID_pico
+TestID_5,EutranFreqRelation_dg1

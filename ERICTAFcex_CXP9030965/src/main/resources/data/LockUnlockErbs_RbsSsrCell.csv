@@ -1,0 +1,4 @@
+TestId,NodeType,Operation
+OSS-99306_Func_1,SSR-RBS/ERBS,lock
+OSS-99306_Func_2,SSR-RBS/ERBS,unlock
+OSS-99306_Func_3,SSR-RBS/ERBS,softlock

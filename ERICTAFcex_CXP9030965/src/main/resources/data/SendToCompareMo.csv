@@ -1,0 +1,7 @@
+TestID,CellName
+OSS-67064_Func_1,UtranCell-MACRO
+OSS-67064_Func_2,UtranCell-PICO
+OSS-67064_Func_4,EUtranCellFDD-MACRO
+OSS-67064_Func_5,EUtranCellFDD-PICO
+OSS-67064_Func_7,EUtranCellTDD-MACRO
+OSS-67064_Func_8,ExternalUtranCell

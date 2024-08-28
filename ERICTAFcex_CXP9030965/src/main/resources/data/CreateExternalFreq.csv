@@ -1,0 +1,6 @@
+TestID,ElementType
+OSS-24807_Func_1,ExternalUtranFreq
+OSS-24807_Func_2,ExternalEutranFrequency
+OSS-24807_Func_3,ExternalGsmFreqGroup
+OSS-24807_Func_4,ExternalGsmFreq
+OSS-24807_Func_5,EUtranFrequency

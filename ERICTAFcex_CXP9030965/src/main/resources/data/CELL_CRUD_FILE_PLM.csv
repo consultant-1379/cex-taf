@@ -1,0 +1,13 @@
+TestId,NodeType,Operation
+OSS-24704_Func_1,RNC,Create
+OSS-24704_Func_2,RNC,Delete
+OSS-63423_Func_1,PICO-RNC,Create
+OSS-63426_Func_1,PICO-RNC,Delete
+OSS-24704_Func_1,EUtranCellFDD,Create
+OSS-24704_Func_2,EUtranCellFDD,Delete
+OSS-24704_Func_3,EUtranCellTDD,Create
+OSS-24704_Func_5,EUtranCellFDD-TAC,Create
+OSS-24704_Func_7,EUtranCellTDD-TAC,Create
+OSS-24704_Func_9,EUtranCellFDD/TDD,Create
+OSS-24704_Func_10,EUtranCellTDD/FDD,Create
+OSS-24704_Func_4,EUtranCellTDD,Delete

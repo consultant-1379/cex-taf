@@ -1,0 +1,497 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CEX KGB_18B TESTWARE" preserve-order="true">
+
+	<test name="Simulation Start Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.ui.getters.SimulationTest" >
+             <methods>
+					<include name="simulationTestStart"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Prepare Cex Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.ui.getters.PrepareCexTest" />
+		</classes>
+	</test>
+	<test name="Son activate deactivate feature common testcases ">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.son.SonFeaturesTest">
+				<methods>
+					<include name="activateDeactivateSonTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Activate deactivate feature(ULTRIG AND NBIOT) testcases">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.son.ActivateDeactivateFeatureTest">
+				<methods>
+					<include name="activateDeactivateUlTrigTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Verfiy Content View Generic Testcases">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.content.VerifyContentViewTest">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify G2 Quering Testcase">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.properties.VerifyG2QueryingTest" />
+		</classes>
+	</test>
+	<test name="Verify properties for various nodes">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.properties.VerifyPropertiesFeatureTest" />
+		</classes>
+	</test>
+
+	<test name="BCG Import Test Cases">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.bcg.BCGImportTest">
+				<methods>
+					<include name="prerequisites"></include>
+					<include name="bcgImport"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify IMS Node Proprties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.properties.VerifyIMSNodePropertiesTest">
+				<methods>
+					<include name="verifyPropertiesFunction"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify Relation View Generic Testcases">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.VerifyRelationsViewTest">
+			</class>
+		</classes>
+	</test>
+	<test name="Create ExternalFreq Test">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.createmo.CreateExternalFreqTest" />
+		</classes>
+	</test>
+
+	<test name="Add Delete Node Cluster">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.cluster.AddDeleteNodeCluster" />
+		</classes>
+	</test>
+	<test name="AutoConfigure GeranCellRelation TestCases">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.autoconfigure.AutoConfigureGeranCellRelationTest">
+			</class>
+		</classes>
+	</test>
+	<test name="AutoConfigure Relations Generic TestCases">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.autoconfigure.AutoConfigureRelationsTest">
+				<methods>
+					<include name="autoConfigureRelationsTest"></include>
+					<include name="autoConfigureRelations_CDBTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Export Relation Test">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.exportrelation.ExportRelationTest" />
+		</classes>
+	</test>
+	<test name="PCP Profile with DATA ">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.pcp.PcpProfileCrudTest">
+				<methods>
+					<include name="testCreateProfileMimManager"></include>
+					<include name="duplicateProfileTest"></include>
+					<include name="testDeleteProfileMimManager"></include>
+					<include name="createProfileExistMoTest"></include>
+					<include name="deleteProfileExistMoTest"></include>
+					<include name="createProfileExistMoMoreTest"></include>
+					<include name="deletProfileExistMoMoreTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Lock Unlock SoftLock Utran/EUtranCell">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.lockUnlockSoftlock.LockUnlockSoftLockCell">
+				<methods>
+					<include name="lockEUtranCell"></include>
+					<include name="unlockEUtranCell"></include>
+					<include name="softLockEUtranCell"></include>
+					<include name="lockUtranCell"></include>
+					<include name="unlockUtranCell"></include>
+					<include name="softLockUtranCell"></include>
+					<include name="lockUnlockSite"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Lock Unlock Softlock Mixed selection of RBS/ERBS type nodes">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.lockUnlockSoftlock.LockUnlockSoftlockMixedNodes">
+			</class>
+		</classes>
+	</test>
+	<test name="Create Delete Cell Utran/EUtran(Pico/Macro) and NBIOT">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.createmo.CellCRUDTest">
+				<methods>
+					<include name="cellCreate18B"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!-- Lock/Unlock For NBIOT Cells -->
+	<test name="Lock/Unlock NBiot">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.lockUnlockSoftlock.LockUnlockNBiotCell">
+			</class>
+		</classes>
+	</test>
+	<test name="Delete NBIOT Cell">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.createmo.DeleteNbIotCellTest">
+				<methods>
+					<include name="deleteNbiotCellTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="verify location area page">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.VerifyLocationAreaTest" />
+		</classes>
+	</test>
+	<test name="verify routing area page">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.VerifyRoutingAreaTest" />
+		</classes>
+	</test>
+	<test name="CreateVerifyProfilePCPTest">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.pcp.CreateProfileUsingConfProMgr">
+				<methods>
+					<include name="CreateProfileUsingConfProMgrTest"></include>
+					<include name="verifyProfileUsingConfProMgrTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Edit ProfilePCPTest">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.pcp.EditProfileUsingConfProMgr" />
+		</classes>
+	</test>
+	<test name="CreateProfilePCPTest For MGW">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.pcp.CreateProfileUsingConfProMgrForMGW" />
+		</classes>
+	</test>
+	<test name="Edit ProfilePCPTest For MGW">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.pcp.EditProfileUsingConfProMgrForMGW" />
+		</classes>
+	</test>
+	<test name="Delete area Cases ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.AreaTestFixture">
+				<methods>
+					<include name="locationAreaTest"></include>
+					<include name="MbmsAreaTest"></include>
+					<include name="routingAreaTest"></include>
+					<include name="serviceAreaTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ContentViewLteEnodeBPage">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewLteEnodeBPage" />
+		</classes>
+	</test>
+	<test name="ContentViewVerifyRBSProperties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewVerifyRBSProperties" />
+		</classes>
+	</test>
+	<test name="ContentViewVerifyRNCProperties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewVerifyRNCProperties" />
+		</classes>
+	</test>
+	<test name="ContentViewVerifyRXIProperties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewVerifyRXIProperties" />
+		</classes>
+	</test>
+
+	<test name="RequestActionTest">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.mobrowser.view.RequestActionTest" />
+		</classes>
+	</test>
+	<test name="Add Location area ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.AddLocationArea" />
+		</classes>
+	</test>
+	<test name="Add Routing area ">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.topology.areas.AddRoutingArea" />
+		</classes>
+	</test>
+	<test name="Add Mbms Service area ">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.topology.areas.AddMBMSArea" />
+		</classes>
+	</test>
+	<test name="Add Mbms Service area with Non unique Sac ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.AddMBMSAreaWithNonUniSac" />
+		</classes>
+	</test>
+	<test name="Add Location area with Non unique Lac ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.AddLocationAreaWithNonUniLac" />
+		</classes>
+	</test>
+	<test name="Add Routing area with Non unique Rac ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.AddRoutingAreaWithNonUniRac" />
+		</classes>
+	</test>
+	<test name="Add Service area with Non unique Sac ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.topology.areas.AddServiceAreaWithNonUniSac" />
+		</classes>
+	</test>
+	<test name="AutoConfigureEutranCellRelation for TDD Cell Test">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfEUtranCellR_ECellTDD" />
+		</classes>
+	</test>
+
+	<test name="AutoConfigure UtranCellRelation for FDD Cell Test">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfUtranCellR_ECellFDD" />
+		</classes>
+	</test>
+	<test name="AutoConfigure UtranCellRelation for TDD Cell Test">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfUtranCellR_ECellTDD" />
+		</classes>
+	</test>
+	<test name="AutoConfigureTest for Geran Cell">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfigureGSMCell" />
+		</classes>
+	</test>
+
+	<test
+		name="Auto-configure bi-directional UtranRelations for 2 UtranCells on the same node">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfigureUtranRelation" />
+		</classes>
+	</test>
+	<test
+		name="Auto-configure bi-directional EUtranCellRelations for 2 EUtranCells on the same node">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfigureEUtranCellRelation" />
+		</classes>
+	</test>
+
+	<test name="Verify Technician Present Attribute in NodeBFunction ">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewTechnicianPresentAttribute" />
+		</classes>
+	</test>
+	<test name="PCP Profile CLI TEST">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.pcp.PcpProfileCliTest">
+				<methods>
+					<include name="PCPProfileExport"></include>
+					<include name="PCPProfileImport"></include>
+					<include name="PCPProfileDelete"></include>
+					<include name="PCPProfileCLI"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Create utran Cell Relation">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.relations.UtranRelationTest">
+				<methods>
+					<include name="testUtranRelation"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Delete Utran Cell Relation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteUtranCellAndRelation" />
+		</classes>
+	</test>
+
+	<test name="Delete EUtranCellRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteEUtranCellRelation" />
+		</classes>
+	</test>
+	<test name="Create Cdma2000FreqRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.CreateCdma2000FreqRelation" />
+		</classes>
+	</test>
+	<test name="Delete Cdma2000FreqRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteCdma2000FreqRelation" />
+		</classes>
+	</test>
+	<test name="Create EUtranFreqRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.CreateEUtranFreqRelation" />
+		</classes>
+	</test>
+
+	<test name="Delete Cdma2000CellRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteCdma2000CellRelation" />
+		</classes>
+	</test>
+	<test name="Create CoverageRelation on different RNC's">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.coverageRelationDiffRncTest" />
+		</classes>
+	</test>
+	<test name="Delete UtranCellRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteUtranCellRelation" />
+		</classes>
+	</test>
+	<test name="Delete EUtran Cell and EUtran Cell Relation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteEUtranCellAndRelation" />
+		</classes>
+	</test>
+	<!-- <test name="Create CoverageRelation"> <classes> <class name="com.ericsson.oss.cex.taf.tests.relations.coverageRelationTest" 
+		/> </classes> </test> -->
+	<!-- New Testcases -->
+	<test name="Modify Fdn Properties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.properties.ModifyPropertiesTest" />
+		</classes>
+	</test>
+	<test name="X2_Black_White List Test">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.X2BlackWhiteListTest">
+				<methods>
+					<include name="AddERbsX2BlackList"></include>
+					<include name="RemoveERbsX2BlackList"></include>
+					<include name="AddERbsX2WhiteList"></include>
+					<include name="RemoveERbsX2WhiteList"></include>
+					<include name="AddPERbsX2BlackList"></include>
+					<include name="RemovePERbsX2BlackList"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Create utran Cell Relation(PICO)">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.relations.UtranRelationTest">
+				<methods>
+					<exclude name="testUtranRelation"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Check Special(IsDL,prodDesignation) Attribute Property">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.properties.CheckSpecialAttrubute" />
+		</classes>
+	</test>
+	<test name="Check RBS6kCabinets Attribute contenty">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.CheckRBS6kCabinets" />
+		</classes>
+	</test>
+	<test name="Send To CompareMo View Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.compareMo.SendToCompareMoTest">
+				<methods>
+					<include name="sendToCompareMoTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test name="Stop Simulation"> <classes> <class name="com.ericsson.oss.cex.taf.ui.getters.SimulationTest" 
+		> <methods> <include name="simulationTestStop"></include> </methods> </class> 
+		</classes> </test> 
+</suite>

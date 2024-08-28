@@ -1,0 +1,15 @@
+TestId,ElementType
+OSS-82988_Func_1,RNC
+OSS-82982_Func_1,RBS
+OSS-82984_Func_1,ERBS
+OSS-82925_Func_1,PRBS
+OSS-82925_Func_1,PERBS
+OSS-81587_Func_1,ExternalCdma2000Cell
+OSS-81786_Func_1,ExternalCdma2000Freq
+OSS-81785_Func_1,ExternalUtranCellFDD
+OSS-81784_Func_1,ExternalUtranCellTDD
+OSS-81592_Func_1,ExternalGsmFreq
+OSS-81593_Func_1,ExternalUtranFreq
+OSS-81591_Func_1,ExternalUtranRnc
+OSS-83988_Func_1,ExternalEutranFrequency
+OSS-83989_Func_1,EUtranFrequency

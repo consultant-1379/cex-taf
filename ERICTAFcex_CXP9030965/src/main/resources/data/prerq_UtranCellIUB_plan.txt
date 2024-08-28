@@ -1,0 +1,9 @@
+
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,UtranCell=U2201
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,UtranCell=U2202
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,UtranCell=U2203
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,UtranCell=U2205
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,UtranCell=U2206
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,UtranCell=U2207
+dm SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,IubLink=RBSK40
+

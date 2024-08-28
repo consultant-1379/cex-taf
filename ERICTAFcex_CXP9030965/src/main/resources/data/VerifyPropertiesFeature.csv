@@ -1,0 +1,9 @@
+TestID,CellType,moType,FunctionType,PropertyName
+OSS-43043_Func_1,MACRO,Rbs,,userLabel rbsIubId cppVersion ipAddress connectionStatus
+OSS-43043_Func_2,,Pico-Rbs,,userLabel ipAddress connectionStatus
+OSS-43043_Func_3,MACRO,Erbs,,userLabel cppVersion ipAddress connectionStatus
+OSS-43043_Func_4,,Pico-Erbs,,connectionStatus userLabel ipAddress
+OSS-93767_Func_1,MACRO,EUtranCellFDD,CellSleepFunction,CellSleepFunctionId sleepMode sleepState sleepStartTime sleepEndTime capCellSleepMonitorDurTimer capCellDlPrbSleepThreshold capCellRrcConnSleepThreshold covCellWakeUpMonitorDurTimer covCellDlPrbWakeUpThreshold covCellRrcConnWakeUpThreshold coverageCellDiscovery
+OSS-93767_Func_2,MACRO,EUtranCellTDD,CellSleepFunction,CellSleepFunctionId sleepMode sleepState sleepStartTime sleepEndTime capCellSleepMonitorDurTimer capCellDlPrbSleepThreshold capCellRrcConnSleepThreshold covCellWakeUpMonitorDurTimer covCellDlPrbWakeUpThreshold covCellRrcConnWakeUpThreshold coverageCellDiscovery
+OSS-xxxxx_Func_1,,SSR-Erbs,,connectionStatus userLabel ipAddress
+OSS-xxxxx_Func_1,,SSR-Rbs,,connectionStatus userLabel ipAddress

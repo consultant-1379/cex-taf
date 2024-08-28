@@ -1,0 +1,3 @@
+TestId,ElementType,Operation
+OSS-35732_Func_1,RBS,Lock
+OSS-35732_Func_2,RBS,Unlock

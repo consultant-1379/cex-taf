@@ -1,0 +1,4 @@
+TestId,NodeType,Operation
+OSS-63411_Func_1,WCDMA-PICO,lock
+OSS-63412_Func_1,WCDMA-PICO,unlock
+OSS-63413_Func_1,WCDMA-PICO,softlock

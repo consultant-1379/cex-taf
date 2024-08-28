@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CEX TESTWARE" preserve-order="true">
+
+
+	<test name="Simulation Start Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.ui.getters.SimulationTest">
+			 <methods>
+					<include name="simulationTestStart"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Prepare Cex Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.ui.getters.PrepareCexTest" />
+		</classes>
+	</test>
+	<test name="Son activate deactivate feature common testcases ">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.son.SonFeaturesTest">
+				<methods>
+					<include name="getRequiredFdnForRbot"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

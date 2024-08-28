@@ -1,0 +1,3 @@
+TestId,ElementType,Operation
+Test_case_1,EUtranCell,Lock
+Test_case_2,EUtranCell,Unlock

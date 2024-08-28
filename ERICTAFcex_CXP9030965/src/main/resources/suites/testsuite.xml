@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Prepare CEX" preserve-order="true">
+
+	<test name="Prepare Cex Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.ui.getters.PrepareCexTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,4 @@
+TestId,NodeType,Operation
+OSS-165958_Func_1,LTE-SSR,lock
+OSS-165958_Func_1,LTE-SSR,unlock
+OSS-165958_Func_2,LTE-SSR,softlock

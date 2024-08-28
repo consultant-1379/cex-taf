@@ -1,0 +1,5 @@
+TestID,ElementSourceType,ElementTargetType,RelationType,SourceCell,TargetCell,ExternalFreq
+OSS-63437_Func_1,UtranCell-MACRO,UtranCell-MACRO,UtranRelation,UtranCell,UtranCell,ExternalUtranFreq
+OSS-63437_Func_2,UtranCell-PICO,UtranCell-PICO,UtranRelation,UtranCell,UtranCell,ExternalUtranFreq
+OSS-63437_Func_3,EUtranCellFDD-MACRO,UtranCell-MACRO,UtranCellRelation,EUtranCellFDD,UtranCell,ExternalUtranFreq
+OSS-63437_Func_4,EUtranCellTDD-MACRO,UtranCell-MACRO,UtranCellRelation,EUtranCellTDD,UtranCell,ExternalUtranFreq

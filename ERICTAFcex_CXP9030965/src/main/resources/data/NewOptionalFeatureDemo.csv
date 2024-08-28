@@ -1,0 +1,5 @@
+TestID,NodeType,OperationType,FeatureType
+OSS-111111_Func_1,ERBS,activate,MicroSleepTx
+OSS-111111_Func_2,ERBS,deactivate,MicroSleepTx
+OSS-111111_Func_3,SSR-ERBS,activate,MicroSleepTx
+OSS-111111_Func_4,SSR-ERBS,deactivate,MicroSleepTx

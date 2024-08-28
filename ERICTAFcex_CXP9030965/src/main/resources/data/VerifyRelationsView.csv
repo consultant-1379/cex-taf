@@ -1,0 +1,10 @@
+TestId,NodeType,SourceType,RelationType
+OSS-42947_Func_2,MACRO,EUtranCellFDD,Cdma2000CellRelation
+OSS-42947_Func_3,MACRO,EUtranCellFDD,Cdma2000FreqBandRelation
+OSS-42947_Func_4,MACRO,EUtranCellFDD,UtranFreqRelation
+OSS-42947_Func_5,MACRO,EUtranCellFDD,UtranCellRelation
+OSS-42947_Func_6,MACRO,EUtranCellFDD,EUtranCellRelation
+OSS-42947_Func_7,MACRO,EUtranCellFDD,EUtranFreqRelation
+OSS-42947_Func_8,MACRO,UtranCell,UtranCellRelation
+OSS-42947_Func_9,MACRO,UtranCell,UtranRelation
+OSS-42947_Func_10,MACRO,UtranCell,EutranFreqRelation

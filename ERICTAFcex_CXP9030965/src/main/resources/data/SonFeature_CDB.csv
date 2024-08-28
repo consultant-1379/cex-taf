@@ -1,0 +1,3 @@
+TestID,NodeType,OperationType,FeatureType
+OSS-42985_Func_1,ERBS,activate,LTE_ANR_INTER
+OSS-42986_Func_1,ERBS,deactivate,LTE_ANR_INTER

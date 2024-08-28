@@ -1,0 +1,5 @@
+TestID,moType
+OSS-93767_Func_1,RadioNode-Rbs
+OSS-93767_Func_1,RadioNode-Rnc
+OSS-111596_Func_1,Pico-Rbs
+OSS-111596_Func_1,PicoNode-Rnc

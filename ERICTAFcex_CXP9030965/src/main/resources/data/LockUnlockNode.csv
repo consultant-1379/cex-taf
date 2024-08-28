@@ -1,0 +1,3 @@
+TestId,NodeType,Operation
+OSS-63414_Func_1,RBS-PICO,lock
+OSS-63415_Func_1,RBS-PICO,unlock

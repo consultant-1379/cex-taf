@@ -1,0 +1,131 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CEX CDB TESTWARE" preserve-order="true">
+
+	<test name="Prepare Cex Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.ui.getters.PrepareCexTest" />
+		</classes>
+	</test>
+	<test name="Lock Unlock SoftLock Utran/EUtranCell">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.lockUnlockSoftlock.LockUnlockSoftLockCell">
+				<methods>
+					<include name="lockUtranCell"></include>
+					<include name="unlockUtranCell"></include>
+					<include name="lockUnlockSite"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Modify Fdn Properties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.properties.ModifyPropertiesTest" />
+		</classes>
+	</test>
+	<test name="RequestActionTest">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.mobrowser.view.RequestActionTest" />
+		</classes>
+	</test>
+	<test name="CreateVerifyProfilePCPTest">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.pcp.CreateProfileUsingConfProMgr">
+				<methods>
+					<include name="CreateProfileUsingConfProMgrTest"></include>
+					<include name="verifyProfileUsingConfProMgrTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Edit ProfilePCPTest">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.pcp.EditProfileUsingConfProMgr" />
+		</classes>
+	</test>
+	<test name="Verify Relation View Generic Testcases">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.VerifyRelationsViewTest">
+				<methods>
+					<include name="verifyGeranFreqRelationsView"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ContentViewLteEnodeBPage">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewLteEnodeBPage" />
+		</classes>
+	</test>
+	<test name="ContentViewVerifyRBSProperties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewVerifyRBSProperties" />
+		</classes>
+	</test>
+	<test name="ContentViewVerifyRNCProperties">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.content.view.ContentViewVerifyRNCProperties" />
+		</classes>
+	</test>
+	<test name="Son activate deactivate feature common testcases ">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.son.SonFeaturesCDBTest">
+			</class>
+		</classes>
+	</test>
+	<test name="Send To CompareMo View Test">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.compareMo.SendToCompareMoTest">
+				<methods>
+					<include name="sendToCompareMoCDBTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="AutoConfigure Relations Generic TestCases">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.autoconfigure.AutoConfigureRelationsTest">
+				<methods>
+					<include name="autoConfigureRelations_CDBTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!--test name="AutoConfigureTest for Geran Cell"> <classes> <class name="com.ericsson.oss.cex.taf.tests.selectionList.view.AutoConfigureGSMCell" 
+		/> </classes> </test -->
+	<test name="Create utran Cell Relation">
+		<classes>
+			<class name="com.ericsson.oss.cex.taf.tests.relations.UtranRelationTest">
+				<methods>
+					<include name="testUtranRelation"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Delete UtranCellRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.deleteMo.DeleteUtranCellRelation" />
+		</classes>
+	</test>
+	<test name="Create EUtranFreqRelation">
+		<classes>
+			<class
+				name="com.ericsson.oss.cex.taf.tests.relations.CreateEUtranFreqRelation">
+				<methods>
+					<include name="testEUtranFreqRelation"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

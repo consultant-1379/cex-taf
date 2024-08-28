@@ -1,0 +1,13 @@
+TestID,NodeType,OperationType,FeatureType
+OSS-122218_Func_1,ERBS,activate,ULMobility
+OSS-122218_Func_2,ERBS,deactivate,ULMobility
+OSS-122218_Func_3,SSR-ERBS,activate,ULMobility
+OSS-122218_Func_4,SSR-ERBS,deactivate,ULMobility
+OSS-127119_Func_1,ERBS,activate,NBIOT
+OSS-127119_Func_2,ERBS,deactivate,NBIOT
+OSS-127119_Func_3,SSR-ERBS,activate,NBIOT
+OSS-127119_Func_4,SSR-ERBS,deactivate,NBIOT
+OSS-127119_Func_1,ERBS,activate,MicroSleepTx
+OSS-127119_Func_2,ERBS,deactivate,MicroSleepTx
+OSS-127119_Func_3,SSR-ERBS,activate,MicroSleepTx
+OSS-127119_Func_4,SSR-ERBS,deactivate,MicroSleepTx

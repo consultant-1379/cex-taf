@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bulkCmConfigDataFile xmlns:es="EricssonSpecificAttributes.17.08.xsd"
+    xmlns:un="utranNrm.xsd" xmlns:xn="genericNrm.xsd"
+    xmlns:gn="geranNrm.xsd" xmlns="configData.xsd">
+    <fileHeader fileFormatVersion="32.615 V4.5" vendorName="Ericsson"/>
+    <configData dnPrefix="Undefined">
+        <xn:SubNetwork id="ONRM_ROOT_MO_R">
+            <xn:SubNetwork id="ERBS-SUBNW-1">
+                <xn:MeContext id="LTE01ERBS00001">
+                    <xn:ManagedElement id="1">
+                        <xn:VsDataContainer id="1">
+                            <xn:attributes>
+                                <xn:vsDataType>vsDataENodeBFunction</xn:vsDataType>
+                                <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.08</xn:vsDataFormatVersion>
+                                <es:vsDataENodeBFunction/>
+                            </xn:attributes>
+                            <xn:VsDataContainer id="LTE01ERBS00001-1">
+                                <xn:attributes>
+                                    <xn:vsDataType>vsDataEUtranCellFDD</xn:vsDataType>
+                                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.08</xn:vsDataFormatVersion>
+                                    <es:vsDataEUtranCellFDD/>
+                                </xn:attributes>
+                                <xn:VsDataContainer id="new" modifier="create">
+                                    <xn:attributes>
+                                    <xn:vsDataType>vsDataEUtranFreqRelation</xn:vsDataType>
+                                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.08</xn:vsDataFormatVersion>
+                                    <es:vsDataEUtranFreqRelation>
+                                   
+                                    <es:adjacentFreq>SubNetwork=ONRM_ROOT_MO_R,FreqManagement=1,EUtranFrequency=255144</es:adjacentFreq>
+                                    
+                                    </es:vsDataEUtranFreqRelation>
+                                    </xn:attributes>
+                                </xn:VsDataContainer>
+ </xn:VsDataContainer>
+
+<xn:VsDataContainer id="LTE01ERBS00001-2">
+                                <xn:attributes>
+                                    <xn:vsDataType>vsDataEUtranCellFDD</xn:vsDataType>
+                                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.08</xn:vsDataFormatVersion>
+                                    <es:vsDataEUtranCellFDD/>
+                                </xn:attributes>
+                                <xn:VsDataContainer id="new1" modifier="create">
+                                    <xn:attributes>
+                                    <xn:vsDataType>vsDataEUtranFreqRelation</xn:vsDataType>
+                                    <xn:vsDataFormatVersion>EricssonSpecificAttributes.17.08</xn:vsDataFormatVersion>
+                                    <es:vsDataEUtranFreqRelation>
+                                   
+                                    <es:adjacentFreq>SubNetwork=ONRM_ROOT_MO_R,FreqManagement=1,EUtranFrequency=255144</es:adjacentFreq>
+                                    
+                                    </es:vsDataEUtranFreqRelation>
+                                    </xn:attributes>
+                                </xn:VsDataContainer>
+ </xn:VsDataContainer>
+                        </xn:VsDataContainer>
+                    </xn:ManagedElement>
+                </xn:MeContext>
+            </xn:SubNetwork>
+        </xn:SubNetwork>
+    </configData>
+    <fileFooter dateTime="2016-07-27T14:12:43Z"/>
+</bulkCmConfigDataFile>
+
+

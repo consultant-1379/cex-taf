@@ -1,0 +1,11 @@
+TestID,NodeType
+Test_ID_1,MTAS
+Test_ID_2,HSS_FE_ECIM
+Test_ID_3,PGM
+Test_ID_4,IPWorks_ECIM
+Test_ID_5,CSCF
+Test_ID_6,DUAS
+Test_ID_7,SBG
+Test_ID_8,WCG
+Test_ID_9,MRS_ECIM
+Test_ID_10,EME_ECIM

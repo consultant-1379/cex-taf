@@ -1,0 +1,9 @@
+ClusterType,NoOfRbs,NoOfErbs,NoOfRnc,NoOfPrbs,NoOfPerbs
+ERBS/RBS,0,2,0,0,0
+ERBS/RBS,2,0,0,0,0
+ERBS/RBS,2,1,0,0,0
+RNC,0,0,2,0,0
+PRBS,0,0,0,2,0
+PERBS,0,0,0,0,2
+PRBS/PERBS,0,0,0,2,2
+PERBS/ERBS,0,2,0,0,2

@@ -1,0 +1,2 @@
+sa SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC04,MeContext=RNC04,ManagedElement=1,RncFunction=1,IubLink=10 rbsId 40
+

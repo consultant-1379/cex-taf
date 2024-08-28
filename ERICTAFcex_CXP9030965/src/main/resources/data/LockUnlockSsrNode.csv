@@ -1,0 +1,7 @@
+TestId,NodeType,Operation
+OSS-64921_Func_1,ERBS-SSR,lock
+OSS-64935_Func_1,ERBS-SSR,unlock
+OSS-64935_Func_1,ERBS-SSR,lock
+OSS-84148_Func_1,RBS-SSR,lock
+OSS-84149_Func_1,RBS-SSR,unlock
+OSS-84150_Func_1,RBS-SSR,softlock

@@ -1,0 +1,5 @@
+TestID,OperationType
+TAFTEST-1_Func_1,FindAll
+TAFTEST-2_Func_2,Compare
+TAFTEST-3_Func_3,Find
+TAFTEST-4_Func_4,Delete
